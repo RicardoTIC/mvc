@@ -14,9 +14,9 @@ namespace Datos
         
         protected SqlConnection _connection;
 
-        private string server = "192.168.100.25";
+        private string server = "Localhost";
         private string db = "curso_csharts";
-        private string user = "ricardo";
+        private string user = "Ricardo";
         private string password = "rhvjinzo101212";
         private string _connectionstring;
 

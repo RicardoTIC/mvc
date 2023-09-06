@@ -8,20 +8,27 @@ namespace Modelo
 {
     public class Persona
     {
-        public Persona() { }
-        public Persona(string nom, string apeP)
+        
+        public int id { get; set; }
+        public string nombre { get; set; }
+        public string apellido { get; set; }
+        public string telefono { get; set; }
+        public string direccion { get; set; }
+
+
+        public Persona()
         {
-            this.nom = nom;
-            this.apeP = apeP;
 
         }
 
-        public int id { get; set; }
-        public string nom { get; set; }
-
-        public string apeP { get; set; }
-
-        public string apeM { get; set; }
+        public Persona(int id, string nombre, string apellido, string telefono, string direccion)
+        {
+            this.id = id;
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.telefono = telefono;
+            this.direccion = direccion;
+        }
 
 
 

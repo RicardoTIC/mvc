@@ -7,3 +7,14 @@ C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\ProyectoRealMVC\Negocio\obj\Debu
 C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\ProyectoRealMVC\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\ProyectoRealMVC\Negocio\obj\Debug\Negocio.dll
 C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\ProyectoRealMVC\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\bin\Debug\Negocio.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\bin\Debug\Datos.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\bin\Debug\Datos.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\obj\Debug\Negocio.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\bin\Debug\Modelo.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Negocio\bin\Debug\Modelo.pdb

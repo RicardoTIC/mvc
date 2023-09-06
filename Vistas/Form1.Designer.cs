@@ -33,28 +33,39 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtApellidoPaterno = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnConectar = new System.Windows.Forms.Button();
+            this.txtbuscar = new System.Windows.Forms.TextBox();
+            this.btnInsert = new System.Windows.Forms.Button();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.Telefono = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tbdatos)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbdatos
             // 
+            this.tbdatos.AllowUserToDeleteRows = false;
             this.tbdatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tbdatos.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tbdatos.Location = new System.Drawing.Point(0, 20);
+            this.tbdatos.Location = new System.Drawing.Point(15, 39);
             this.tbdatos.Name = "tbdatos";
-            this.tbdatos.Size = new System.Drawing.Size(674, 150);
-            this.tbdatos.TabIndex = 0;
+            this.tbdatos.ReadOnly = true;
+            this.tbdatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.tbdatos.Size = new System.Drawing.Size(637, 119);
+            this.tbdatos.TabIndex = 7;
+            this.tbdatos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tbdatos_CellClick);
             // 
             // btnShowInfo
             // 
-            this.btnShowInfo.Location = new System.Drawing.Point(12, 110);
+            this.btnShowInfo.Location = new System.Drawing.Point(179, 110);
             this.btnShowInfo.Name = "btnShowInfo";
             this.btnShowInfo.Size = new System.Drawing.Size(75, 23);
-            this.btnShowInfo.TabIndex = 1;
+            this.btnShowInfo.TabIndex = 5;
             this.btnShowInfo.Text = "Show Info";
             this.btnShowInfo.UseVisualStyleBackColor = true;
             this.btnShowInfo.Click += new System.EventHandler(this.btnGuardar_Click);
@@ -64,7 +75,7 @@
             this.txtNombre.Location = new System.Drawing.Point(62, 32);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
-            this.txtNombre.TabIndex = 2;
+            this.txtNombre.TabIndex = 0;
             // 
             // label1
             // 
@@ -84,48 +95,130 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Apellido";
             // 
-            // txtApellidoPaterno
+            // txtApellido
             // 
-            this.txtApellidoPaterno.Location = new System.Drawing.Point(62, 65);
-            this.txtApellidoPaterno.Name = "txtApellidoPaterno";
-            this.txtApellidoPaterno.Size = new System.Drawing.Size(100, 20);
-            this.txtApellidoPaterno.TabIndex = 5;
+            this.txtApellido.Location = new System.Drawing.Point(62, 65);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(100, 20);
+            this.txtApellido.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.tbdatos);
+            this.panel1.Controls.Add(this.txtbuscar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 139);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(674, 170);
             this.panel1.TabIndex = 6;
             // 
-            // btnConectar
+            // txtbuscar
             // 
-            this.btnConectar.Location = new System.Drawing.Point(393, 62);
-            this.btnConectar.Name = "btnConectar";
-            this.btnConectar.Size = new System.Drawing.Size(75, 23);
-            this.btnConectar.TabIndex = 7;
-            this.btnConectar.Text = "Conectar";
-            this.btnConectar.UseVisualStyleBackColor = true;
-            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            this.txtbuscar.Location = new System.Drawing.Point(17, 13);
+            this.txtbuscar.Name = "txtbuscar";
+            this.txtbuscar.Size = new System.Drawing.Size(145, 20);
+            this.txtbuscar.TabIndex = 6;
+            this.txtbuscar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtbuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            // 
+            // btnInsert
+            // 
+            this.btnInsert.Location = new System.Drawing.Point(98, 110);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.TabIndex = 4;
+            this.btnInsert.Text = "Insert";
+            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(268, 32);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefono.TabIndex = 2;
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.Location = new System.Drawing.Point(268, 65);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(100, 20);
+            this.txtDireccion.TabIndex = 3;
+            // 
+            // Telefono
+            // 
+            this.Telefono.AutoSize = true;
+            this.Telefono.Location = new System.Drawing.Point(213, 35);
+            this.Telefono.Name = "Telefono";
+            this.Telefono.Size = new System.Drawing.Size(49, 13);
+            this.Telefono.TabIndex = 12;
+            this.Telefono.Text = "Telefono";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(210, 68);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Direccion";
+            // 
+            // btnNew
+            // 
+            this.btnNew.Location = new System.Drawing.Point(17, 110);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(75, 23);
+            this.btnNew.TabIndex = 14;
+            this.btnNew.Text = "New";
+            this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(268, 110);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnDelete.TabIndex = 15;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(359, 110);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 16;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // frmPersona
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(674, 309);
-            this.Controls.Add(this.btnConectar);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnNew);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Telefono);
+            this.Controls.Add(this.txtDireccion);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.txtApellidoPaterno);
+            this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnShowInfo);
             this.Name = "frmPersona";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Persona";
+            this.Load += new System.EventHandler(this.frmPersona_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tbdatos)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,9 +231,17 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtApellidoPaterno;
+        private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnConectar;
+        private System.Windows.Forms.TextBox txtbuscar;
+        private System.Windows.Forms.Button btnInsert;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.Label Telefono;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnUpdate;
     }
 }
 

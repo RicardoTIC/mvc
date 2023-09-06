@@ -4,3 +4,9 @@ C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\ProyectoRealMVC\Modelo\obj\Debug
 C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\ProyectoRealMVC\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\ProyectoRealMVC\Modelo\obj\Debug\Modelo.dll
 C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\ProyectoRealMVC\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Modelo\bin\Debug\Modelo.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Ricardo Herrera\Documents\mvc\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Herrera\Documents\mvc\Modelo\obj\Debug\Modelo.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Modelo\obj\Debug\Modelo.pdb

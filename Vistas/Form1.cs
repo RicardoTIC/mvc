@@ -35,6 +35,8 @@ namespace Vistas
         {
             InitializeComponent();
 
+            lblfecha.Text = "Fecha";
+
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)

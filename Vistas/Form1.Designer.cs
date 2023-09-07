@@ -199,7 +199,8 @@
             // lblfecha
             // 
             this.lblfecha.AutoSize = true;
-            this.lblfecha.Location = new System.Drawing.Point(646, 9);
+            this.lblfecha.Dock = System.Windows.Forms.DockStyle.Right;
+            this.lblfecha.Location = new System.Drawing.Point(658, 0);
             this.lblfecha.Name = "lblfecha";
             this.lblfecha.Size = new System.Drawing.Size(16, 13);
             this.lblfecha.TabIndex = 17;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tbdatos = new System.Windows.Forms.DataGridView();
             this.btnShowInfo = new System.Windows.Forms.Button();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -45,6 +46,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.lblfecha = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tbdatos)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -197,11 +199,15 @@
             // lblfecha
             // 
             this.lblfecha.AutoSize = true;
-            this.lblfecha.Location = new System.Drawing.Point(627, 9);
+            this.lblfecha.Location = new System.Drawing.Point(646, 9);
             this.lblfecha.Name = "lblfecha";
             this.lblfecha.Size = new System.Drawing.Size(16, 13);
             this.lblfecha.TabIndex = 17;
             this.lblfecha.Text = "---";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmPersona
             // 
@@ -254,6 +260,7 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label lblfecha;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

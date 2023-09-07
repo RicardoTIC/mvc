@@ -35,7 +35,7 @@ namespace Vistas
         {
             InitializeComponent();
 
-            lblfecha.Text = "Fecha";
+            timer1.Start();
 
         }
 
@@ -186,6 +186,12 @@ namespace Vistas
                 }
 
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblfecha.Text = "" + DateTime.Now.ToString("HH:mm:ss");
+
         }
     }
 }

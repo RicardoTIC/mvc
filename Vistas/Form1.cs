@@ -41,7 +41,6 @@ namespace Vistas
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-
             showAllData("");
         }
 
@@ -191,7 +190,7 @@ namespace Vistas
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblfecha.Text = "" + DateTime.Now.ToString("HH:mm:ss");
-
+            
         }
     }
 }

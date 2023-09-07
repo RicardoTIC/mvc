@@ -53,13 +53,21 @@
             // 
             // tbdatos
             // 
+            this.tbdatos.AllowUserToAddRows = false;
             this.tbdatos.AllowUserToDeleteRows = false;
+            this.tbdatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.tbdatos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.tbdatos.BackgroundColor = System.Drawing.Color.White;
+            this.tbdatos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbdatos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.tbdatos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.tbdatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tbdatos.Location = new System.Drawing.Point(15, 39);
+            this.tbdatos.Location = new System.Drawing.Point(15, 49);
+            this.tbdatos.MultiSelect = false;
             this.tbdatos.Name = "tbdatos";
             this.tbdatos.ReadOnly = true;
             this.tbdatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.tbdatos.Size = new System.Drawing.Size(637, 119);
+            this.tbdatos.Size = new System.Drawing.Size(759, 193);
             this.tbdatos.TabIndex = 7;
             this.tbdatos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tbdatos_CellClick);
             // 
@@ -107,12 +115,13 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.lblfecha);
             this.panel1.Controls.Add(this.tbdatos);
             this.panel1.Controls.Add(this.txtbuscar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 139);
+            this.panel1.Location = new System.Drawing.Point(0, 156);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(674, 170);
+            this.panel1.Size = new System.Drawing.Size(802, 262);
             this.panel1.TabIndex = 6;
             // 
             // txtbuscar
@@ -199,7 +208,7 @@
             // lblfecha
             // 
             this.lblfecha.AutoSize = true;
-            this.lblfecha.Location = new System.Drawing.Point(646, 9);
+            this.lblfecha.Location = new System.Drawing.Point(636, 20);
             this.lblfecha.Name = "lblfecha";
             this.lblfecha.Size = new System.Drawing.Size(16, 13);
             this.lblfecha.TabIndex = 17;
@@ -213,8 +222,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(674, 309);
-            this.Controls.Add(this.lblfecha);
+            this.ClientSize = new System.Drawing.Size(802, 418);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnNew);

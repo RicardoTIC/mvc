@@ -33,3 +33,31 @@ C:\Users\Ricardo Herrera\Documents\mvc\Vistas\obj\Debug\Vistas.csproj.CoreCompil
 C:\Users\Ricardo Herrera\Documents\mvc\Vistas\obj\Debug\Vistas.csproj.CopyComplete
 C:\Users\Ricardo Herrera\Documents\mvc\Vistas\obj\Debug\Vistas.exe
 C:\Users\Ricardo Herrera\Documents\mvc\Vistas\obj\Debug\Vistas.pdb
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Vistas.exe.config
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Vistas.exe
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Vistas.pdb
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Datos.dll
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Modelo.dll
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Negocio.dll
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Datos.pdb
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Modelo.pdb
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\bin\Debug\Negocio.pdb
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.frmPersona.resources
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.Properties.Resources.resources
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.exe
+C:\Users\Ricardo\Documents\Proyecto Pruebas MVC\mvc\Vistas\obj\Debug\Vistas.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\bin\Debug\Telerik.Reporting.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\bin\Debug\Telerik.ReportViewer.WinForms.dll
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\bin\Debug\Telerik.Reporting.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\bin\Debug\Telerik.Reporting.xml
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\obj\Debug\Vistas.frmusuarios.resources
+C:\Users\Ricardo Herrera\Documents\mvc\Vistas\obj\Debug\Vistas.exe.licenses

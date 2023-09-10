@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtApellido = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblfecha = new System.Windows.Forms.Label();
             this.txtbuscar = new System.Windows.Forms.TextBox();
             this.btnInsert = new System.Windows.Forms.Button();
             this.txtTelefono = new System.Windows.Forms.TextBox();
@@ -45,8 +46,8 @@
             this.btnNew = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.lblfecha = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.reportViewer1 = new Telerik.ReportViewer.WinForms.ReportViewer();
             ((System.ComponentModel.ISupportInitialize)(this.tbdatos)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -123,6 +124,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(802, 262);
             this.panel1.TabIndex = 6;
+            // 
+            // lblfecha
+            // 
+            this.lblfecha.AutoSize = true;
+            this.lblfecha.Location = new System.Drawing.Point(0, 0);
+            this.lblfecha.Name = "lblfecha";
+            this.lblfecha.Size = new System.Drawing.Size(16, 13);
+            this.lblfecha.TabIndex = 17;
+            this.lblfecha.Text = "---";
             // 
             // txtbuscar
             // 
@@ -205,24 +215,24 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // lblfecha
-            // 
-            this.lblfecha.AutoSize = true;
-            this.lblfecha.Location = new System.Drawing.Point(636, 20);
-            this.lblfecha.Name = "lblfecha";
-            this.lblfecha.Size = new System.Drawing.Size(16, 13);
-            this.lblfecha.TabIndex = 17;
-            this.lblfecha.Text = "---";
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.AccessibilityKeyMap = null;
+            this.reportViewer1.Location = new System.Drawing.Point(416, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(150, 150);
+            this.reportViewer1.TabIndex = 17;
             // 
             // frmPersona
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(802, 418);
+            this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnNew);
@@ -269,6 +279,7 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label lblfecha;
         private System.Windows.Forms.Timer timer1;
+        private Telerik.ReportViewer.WinForms.ReportViewer reportViewer1;
     }
 }
 

@@ -190,7 +190,16 @@ namespace Vistas
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblfecha.Text = "" + DateTime.Now.ToString("HH:mm:ss");
-            
+
+            string relog_actual = DateTime.Now.ToString("HH:mm:ss");
+
+
+            if (relog_actual.Equals("06:27:00"))
+            {
+                MessageBox.Show("Alarma activa","Alerta",MessageBoxButtons.OK,MessageBoxIcon.Hand);
+                return;
+            }
+
         }
     }
 }

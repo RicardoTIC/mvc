@@ -50,6 +50,7 @@ namespace Datos
             {
 
                 MessageBox.Show($"Error{ex.Message}","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+
             }
            
         }

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="D_Persona.cs" />
+    <Compile Include="D_usuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

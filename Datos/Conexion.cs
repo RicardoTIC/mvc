@@ -15,7 +15,7 @@ namespace Datos
         protected SqlConnection _connection;
 
         private string server = "Localhost";
-        private string db = "curso_csharts";
+        private string db = "BASEADACURSO";
         private string user = "Ricardo";
         private string password = "rhvjinzo101212";
         private string _connectionstring;

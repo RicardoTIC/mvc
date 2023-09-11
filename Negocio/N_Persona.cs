@@ -1,11 +1,7 @@
-﻿using System;
+﻿using Datos;
+using Modelo;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Datos;
-using Modelo;
 
 
 namespace Negocio
@@ -22,7 +18,8 @@ namespace Negocio
 
             return delete(p);
         }
-        public bool update_data(Persona p) {
+        public bool update_data(Persona p)
+        {
             return update(p);
         }
 
